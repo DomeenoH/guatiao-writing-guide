@@ -25,6 +25,13 @@
 
 把本仓库整个文件夹放到 `~/workspace/custom-skills/guatiao-writing-guide/`，搜“瓜条”就能找到。
 
+## 给任意 Agent 的使用指南
+
+- 拉取：`git clone https://github.com/DomeenoH/guatiao-writing-guide.git`
+- 安装：把整个文件夹复制到你所用 agent 的自定义 skills 目录（Muse 是 `~/workspace/custom-skills/guatiao-writing-guide/`），skill 名 `guatiao-writing-guide`。
+- 使用：按 `SKILL.md` 来，先当向导一步一步问清用户需求，信息齐了再动笔；排版规则和结构都在 `SKILL.md` 里；原教程图片在 `images/`，不要改。
+- 更详细的 agent 说明见 `AGENTS.md`。
+
 ## 文件
 
 - `SKILL.md`：skill 正文，向导流程、排版规则、结构、发前检查
